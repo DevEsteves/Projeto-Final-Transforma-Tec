@@ -1,6 +1,6 @@
-### Projeto final Transforma Tec
+# Projeto final Transforma Tec
 
-# Running locally
+### Running locally
 
 ```
 $ git clone https://github.com/DevEsteves/Projeto-Final-Transforma-Tec.git
