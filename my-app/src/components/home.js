@@ -24,7 +24,7 @@ const Home = () => {
 
   return(
       <div className="github-api">
-        <h2>User information from Github Api</h2>
+        <h2>User informations from Github Api</h2>
         <ul>
           <p>Nome: {nome.current}</p>
           <p>Repositórios públicos: {users.public_repos}</p>
