@@ -33,11 +33,11 @@ npm install-packages-linux
 npm run dev
 ```
 ```bash
-pnpm install-packages-windows
+pnpm install-packages-linux
 pnpm run dev
 ```
 ```bash
-yarn install-packages-windows
+yarn install-packages-linux
 yarn run dev
 ```
 Agora, para obter informações de usuários do github você pode digitar no browser: http://localhost:3000/api/users/username/details 
