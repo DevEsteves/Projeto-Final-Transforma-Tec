@@ -1,18 +1,20 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Routes, // instead of "Switch"
+  Route,
+} from "react-router-dom";
 import Home from './home';
 
 const RouterApp = ({open}) => {
     return(
       <>
-  
-<Router>
-  <Switch>
-    <Route path="/api/users/:username/details" component={Home}>
-    </Route>
-  </Switch>
- 
-  </Router>
-  </>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/api/users/:username/details" component={Home}>
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </>
     )
 }
 
