@@ -1,0 +1,33 @@
+{
+  "name": "projeto-final-transforma-tec",
+  "version": "1.0.0",
+  "homepage": ".",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "server": "nodemon server.js",
+    "styles": "sass --watch src/styles/home.module.scss src/styles/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.22.5",
+    "css-loader": "^6.8.1",
+    "nodemon": "^2.0.22",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "touch": "^3.1.0"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1",
+    "html-webpack-plugin": "^5.5.3"
+  }
+}
