@@ -9,8 +9,6 @@
     "server": "nodemon server.js",
     "my-app": "npm run start --prefix my-app",
     "dev": "Concurrently \"npm run server\" \"npm run my-app\"",
-    "install-packages-linux": "npm install && cd my-app && npm install && cd ..",
-    "install-packages-windows": "npm install && cd my-app && npm install && cd.."
   },
   "author": "",
   "license": "ISC",
