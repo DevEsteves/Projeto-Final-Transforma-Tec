@@ -28,7 +28,7 @@ yarn install
 cd frontend
 yarn install
 cd..
-yarn run dev
+yarn run dev-yarn
 ```
 
 ### macOS and other Linux-based Systems

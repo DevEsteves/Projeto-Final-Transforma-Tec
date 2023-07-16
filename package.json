@@ -9,6 +9,7 @@
     "server": "nodemon server.js",
     "my-app": "npm run start --prefix my-app",
     "dev": "Concurrently \"npm run server\" \"npm run my-app\"",
+    "dev-yarn": "Concurrently \"yarn run server\" \"cd frontend && npx webpack serve && cd..\""
   },
   "author": "",
   "license": "ISC",
