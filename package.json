@@ -8,7 +8,7 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "my-app": "npm run start --prefix my-app",
-    "dev": "Concurrently \"npm run server\" \"npm run my-app\"",
+    "dev": "Concurrently \"npm run server\" \"cd frontend && npx webpack serve\"",
     "install-packages-linux": "npm install && cd my-app && npm install && cd ..",
     "install-packages-windows": "npm install && cd my-app && npm install && cd.."
   },
