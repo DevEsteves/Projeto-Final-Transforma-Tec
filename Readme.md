@@ -56,7 +56,7 @@ yarn install
 cd frontend
 yarn install
 cd ..
-yarn run dev
+yarn run dev-yarn
 ```
 Agora, para obter informações de usuários do github você pode digitar no browser: http://localhost:3000/api/users/username/details 
 Substitua o username pelo usuário do github que você quer pesquisar.
